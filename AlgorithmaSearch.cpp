@@ -9,7 +9,7 @@ void input()
 {
     while (true)
     {
-        cout << "enter the number of elements in the array: ";
+        cout << "Enter the number of elements in the array: ";
         cin >> n;
         if ((n > 0) && (n <=20))
             break;
@@ -37,7 +37,7 @@ void linearSearch()
     do
     {
         //Accept the number to be searched
-        cout << "\nEnter the element you want to search"; //step 1
+        cout << "\nEnter the element you want to search: "; //step 1
         cin >> item;
 
         ctr = 0;
@@ -74,6 +74,6 @@ void display()
 int main()
 {
     input();
-    LiniearSearch();
+    linearSearch();
     display();
 }
